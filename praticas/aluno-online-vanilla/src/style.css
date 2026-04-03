@@ -96,6 +96,54 @@ section {
     flex-direction: column;
 }
 
+.login-body {
+    flex-direction: column;
+}
+
+.login-body main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid var(--cor-fundo);
+    border-radius: var(--raio-borda);
+    margin: 10% 35%;
+    padding: 1%;
+}
+
+.login-body img {
+    width: 20%;
+}
+
+.login-body input {
+    border: 2px solid var(--cor-fundo);
+    border-radius: 3px;
+}
+
+.login-body form {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.login-body button {
+    border-style: none;
+    border-radius: 3px;
+    background-color: var(--cor-fundo);
+}
+
+.login-body form p {
+    color: crimson;
+}
+
+.login-body footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 @media (width <= 768px) {
     body {
         flex-direction: column;
@@ -107,5 +155,9 @@ section {
 
     h1 img {
         width: 10%;
+    }
+
+    .login-body main {
+        margin: 10% 20%;
     }
 }
